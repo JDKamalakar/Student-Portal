@@ -2,6 +2,8 @@
 
 To get all The Students Acedemic Details & Important Data in One Single App
 
+Using Recycler View Instead of List View
+
 *****Note*****
 
 Database removed after 30/03/2023
