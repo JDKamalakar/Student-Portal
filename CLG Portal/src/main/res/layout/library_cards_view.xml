@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginStart="12dp"
+    android:layout_marginEnd="12dp"
+    android:layout_marginVertical="10dp"
+    android:layout_marginHorizontal="10dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="20dp"
+    android:id="@+id/bookCard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingVertical="20dp">
+
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/bookImage"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/books"></ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Books Name"
+            android:layout_toEndOf="@+id/bookImage"
+            android:textSize="24sp"
+            android:id="@+id/bookTitle"
+            android:layout_marginHorizontal="14dp"
+            android:textColor="@color/lavender"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:paddingHorizontal="10dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/bookTitle"
+            android:textSize="16sp"
+            android:id="@+id/bookDate"
+            android:textColor="@color/black"></TextView>
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

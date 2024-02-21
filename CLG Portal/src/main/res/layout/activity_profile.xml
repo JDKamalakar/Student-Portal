@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity"
+    android:background="@drawable/profilebkg">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100sp">
+        <ImageView
+            android:id="@+id/profileImage"
+            android:layout_width="200sp"
+            android:layout_height="200sp"
+            android:elevation="20sp"
+            android:src="@drawable/mahiru"
+            android:layout_centerInParent="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="20sp"
+            android:layout_marginTop="14sp"
+            android:layout_marginLeft="-10sp"
+            android:textColor="@color/pixelgreen"
+            android:textStyle="bold"
+            android:paddingVertical="4sp"
+            android:paddingHorizontal="6sp"
+            android:id="@+id/Status"
+            android:text="Active"
+            android:layout_toEndOf="@+id/profileImage"
+            android:background="@drawable/rounded_rectangle" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/profile_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mahiru"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:fontFamily="sans-serif-medium"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="16sp"/>
+
+    <TextView
+        android:id="@+id/profile_course"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Computer Science"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="8sp"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="16sp"/>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="110sp"
+        android:scrollbarThumbHorizontal="@color/transperent"
+        android:id="@+id/horizontalScroll"
+        android:layout_weight="1"
+        android:layout_marginBottom="0sp"
+        android:paddingBottom="0sp"
+        android:layout_marginTop="8sp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30sp"
+            android:id="@+id/tabs"
+            android:paddingBottom="0sp"
+            android:orientation="horizontal"
+            android:layout_marginTop="8sp"
+            android:layout_marginBottom="0sp">
+
+            <TextView
+                android:id="@+id/viewPersonal"
+                android:layout_width="wrap_content"
+                android:layout_height="20sp"
+                android:layout_marginHorizontal="6sp"
+                android:layout_marginTop="8sp"
+                android:layout_marginBottom="0sp"
+                android:background="@drawable/fragment_style"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center"
+                android:paddingHorizontal="6sp"
+                android:textColor="@color/black"
+                android:text="Personal"
+                android:textSize="18sp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/viewAdmission"
+                android:layout_width="wrap_content"
+                android:layout_height="20sp"
+                android:layout_marginHorizontal="6sp"
+                android:layout_marginTop="8sp"
+                android:layout_marginBottom="0sp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center"
+                android:paddingHorizontal="6sp"
+                android:text="Admission"
+                android:textSize="18sp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/view_studentContact"
+                android:layout_width="wrap_content"
+                android:layout_height="20sp"
+                android:layout_marginHorizontal="6sp"
+                android:layout_marginTop="8sp"
+                android:layout_marginBottom="0sp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center"
+                android:paddingHorizontal="6sp"
+                android:text="Contact"
+                android:textSize="18sp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/viewParent"
+                android:layout_width="wrap_content"
+                android:layout_height="20sp"
+                android:layout_marginHorizontal="6sp"
+                android:layout_marginTop="8sp"
+                android:layout_marginBottom="0sp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center"
+                android:paddingHorizontal="6sp"
+                android:text="Parent"
+                android:textSize="18sp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/viewQulify"
+                android:layout_width="wrap_content"
+                android:layout_height="20sp"
+                android:layout_marginHorizontal="6sp"
+                android:layout_marginTop="8sp"
+                android:layout_marginBottom="0sp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center"
+                android:paddingHorizontal="6sp"
+                android:text="Education"
+                android:textSize="18sp"
+                tools:ignore="TouchTargetSizeCheck" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="0sp"
+        android:paddingTop="0sp"
+        android:layout_weight="6">
+    </FrameLayout>
+</LinearLayout>

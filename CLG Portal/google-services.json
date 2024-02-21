@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "835947588347",
+    "project_id": "collegeportal-84e20",
+    "storage_bucket": "collegeportal-84e20.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835947588347:android:7532bd117e566ef5d2de5e",
+        "android_client_info": {
+          "package_name": "com.example.collegeportal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "835947588347-beg1onrjj18ekmj3gi88o3hjaie9p3ef.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.collegeportal",
+            "certificate_hash": "58cb1e942ca77ea6c21eef7693df5cba9c9a517f"
+          }
+        },
+        {
+          "client_id": "835947588347-e7qtapqf0tnqhsd0bvaqpf20sisug8od.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5I-mNZnfSr79PslOBNk1qJwQktqPwhPo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "835947588347-e7qtapqf0tnqhsd0bvaqpf20sisug8od.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

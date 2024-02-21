@@ -1,0 +1,286 @@
+<resources>
+    <string name="app_name">CollegePortal</string>
+
+    //Contact PlaceHolder
+
+    //Professor 1
+    <string name="Professor_1">
+\nPassed From XYZ in 2015
+\nDepartment 01
+\nSubjects: A, B, C
+\nRoom No: 221</string>
+
+    //Professor 2
+    <string name="Professor_2">
+\nPassed From ABC in 2022
+\nDepartment 02
+\nSubjects X, Y
+\nRoom No : 220 PIT Building</string>
+
+    //Professor 3
+    <string name="Professor_3">
+\nPassed From AA in 2020
+\nDepartment 02
+\nSubjects X, Z
+\nRoom No : 220 PIT Main Building</string>
+
+    //Professor 4
+    <string name="Professor_4">
+\nPassed From ABC in 2016
+\nDepartment 08
+\n Help Desk
+\nRoom No : Clerk Office</string>
+
+    //Professor 5
+    <string name="Professor_5">
+\nPassed From XYZ in 2022
+\nDepartment Admin
+\nStudent DetAIL Management
+\nRoom No : Computer Lab Main Building</string>
+
+    //Professor 6
+    <string name="Professor_6">
+\nPassed From GG in 2010
+\nDepartment 08
+\nSubjects X, Z
+\nRoom No : 220 PIT Main Building</string>
+
+    //Professor 7
+    <string name="Professor_7">
+\nPassed From Parul in 2023
+\nDepartment 00
+\nSubjects: Crypto
+\nRoom No: 330</string>
+
+    //Professor 1
+    <string name="Professor_1_Contact">
+\n99xxxx22xx
+\nprofessor1@gmail.com</string>
+
+    //Professor 2
+    <string name="Professor_2_Contact">
+\n99xxxx11xx
+\nproff2@gmail.com</string>
+
+    //Professor 3
+    <string name="Professor_3_Contact">
+\n99xxxx33xx
+\nproff3@gmail.com</string>
+
+    //Professor 4
+    <string name="Professor_4_Contact">
+\n99xxxx77xx
+\nHelpdesk@gmail.com</string>
+
+    //Professor 5
+    <string name="Professor_5_Contact">
+\n99xxxx44xx
+\nproffesor55@gmail.com</string>
+
+    //Professor 6
+    <string name="Professor_6_Contact">
+\n99xxxx55xx
+\nproff2010@gmail.com</string>
+
+    //Professor 7
+    <string name="Professor_7_Contact">
+\n99xxxx66xx
+\n7professor@gmail.com</string>
+
+    //Professor 1
+    <string name="Professor_1_Title">Rimuru Tempest</string>
+
+    //Professor 2
+    <string name="Professor_2_Title">Aizawa Misuzu</string>
+
+    //Professor 3
+    <string name="Professor_3_Title">Shina Mahirum</string>
+
+    //Professor 4
+    <string name="Professor_4_Title">Aiz Walenstine</string>
+
+    //Professor 5
+    <string name="Professor_5_Title">Kira</string>
+
+    //Professor 6
+    <string name="Professor_6_Title">Eufie</string>
+
+    //Professor 7
+    <string name="Professor_7_Title">Bell Cranel</string>
+
+    //Time 1
+    <string name="Time_1"> 20:30 </string>
+
+    //Time 2
+    <string name="Time_2"> 02/02/2023 </string>
+
+    //Time 3
+    <string name="Time_3"> 01/01/2023 </string>
+
+    //Time 4
+    <string name="Time_4"> 24/12/2022 </string>
+
+    //Time 5
+    <string name="Time_5"> 10/11/2022 </string>
+
+    //Time 6
+    <string name="Time_6"> 09/11/2022 </string>
+
+    //Time 7
+    <string name="Time_7"> 08/10/2022</string>
+
+
+    //Notification 1
+    <string name="Notification_1"> Viva Time Table for 8th Sem </string>
+
+    //Notification 2
+    <string name="Notification_2"> ML Lecture Postponed </string>
+
+    //Notification 3
+    <string name="Notification_3"> ML Lecture Postponed </string>
+
+    //Notification 4
+    <string name="Notification_4"> Updated Zoom link for Python </string>
+
+    //Notification 5
+    <string name="Notification_5"> Updated Academic Calender for 8th Sem </string>
+
+    //Notification 6
+    <string name="Notification_6"> FR for 8A1 </string>
+
+    //Notification 7
+    <string name="Notification_7">  Academic Calender for 8th Sem </string>
+
+
+    //Qualification PlaceHolder
+    <string name="DataMain">SSC</string>
+    <string name="DataDegree">SSC - SSC</string>
+    <string name="DataExam">10th</string>
+    <string name="DataClass">Pass</string>
+    <string name="DataBoard">GSEB</string>
+    <string name="DataSchool">SVVM</string>
+    <string name="DataYear">2020</string>
+    <string name="DataSeat">256</string>
+    <string name="DataTotal">100</string>
+    <string name="DataMarks">50</string>
+    <string name="DataPercentage">50%</string>
+    <string name="DataState">Tokyo</string>
+    <string name="DataCity">Tokyo</string>
+    <string name="DataStudy">School</string>
+    <string name="DataLanguage">Japanese</string>
+
+
+    //Semester Number
+    <string name="Sem_8"> 8 </string>
+
+    <string name="Sem_7"> 7 </string>
+
+    <string name="Sem_6"> 6 </string>
+
+    <string name="Sem_5"> 5 </string>
+
+    <string name="Sem_4"> 4 </string>
+
+    <string name="Sem_3"> 3 </string>
+
+    //Per Semester SGPA
+    <string name="SGPA_8"> 8.1 </string>
+
+    <string name="SGPA_7"> 7.8 </string>
+
+    <string name="SGPA_6"> 7.3 </string>
+
+    <string name="SGPA_5"> 6.8 </string>
+
+    <string name="SGPA_4"> 9.0 </string>
+
+    <string name="SGPA_3"> 8.2 </string>
+
+    //Per Semester Backlog
+    <string name="Back_8"> 0 </string>
+
+    <string name="Back_7"> 0 </string>
+
+    <string name="Back_6"> 1 </string>
+
+    <string name="Back_5"> 2 </string>
+
+    <string name="Back_4"> 0 </string>
+
+    <string name="Back_3"> 0 </string>
+
+    //Per Semester Link_Title
+    <string name="Link_Title_1"> ML Google Classroom </string>
+
+    <string name="Link_Title_2"> Python Google Classroom </string>
+
+    <string name="Link_Title_3"> Previous Exam Papers </string>
+
+    <string name="Link_Title_4"> ML Zoom/Meet Link </string>
+
+    <string name="Link_Title_5"> Python Zoom/Meet Link </string>
+
+    <string name="Link_Title_6"> Syllabus Link (Current Sem All Subjects) </string>
+
+    //Per Semester Fees
+    <string name="Fees_1"> Sem 1 </string>
+
+    <string name="Fees_2"> Sem 1 Penalty </string>
+
+    <string name="Fees_3"> Sem 2 </string>
+
+    <string name="Fees_4"> Sem 2 Exam </string>
+
+    <string name="Fees_5"> Sem 8 Exam </string>
+
+    <string name="Fees_6"> Sem 8 </string>
+
+    //Per Fees Amount
+    <string name="Fees_1_Amount"> 10000 </string>
+
+    <string name="Fees_2_Amount"> 500 </string>
+
+    <string name="Fees_3_Amount"> 20000 </string>
+
+    <string name="Fees_4_Amount"> 5000 </string>
+
+    <string name="Fees_5_Amount"> 4000 </string>
+
+    <string name="Fees_6_Amount"> 10000 </string>
+
+    //Book Title
+    <string name="Book_1"> Object Oriented Programming as Java </string>
+
+    <string name="Book_2"> Object Oriented Programming in C</string>
+
+    <string name="Book_3"> Python Book </string>
+
+    <string name="Book_4"> Networking For Dummy </string>
+
+    <string name="Book_5"> Android Development </string>
+
+    <string name="Book_6"> HTML+CSS+JS </string>
+
+    //Book Date
+    <string name="Book_1_Date"> 24/02/2020 </string>
+
+    <string name="Book_2_Date"> 30/06/2020 </string>
+
+    <string name="Book_3_Date"> 31/12/2021 </string>
+
+    <string name="Book_4_Date"> 10/10/2021 </string>
+
+    <string name="Book_5_Date"> 02/04/2022 </string>
+
+    <string name="Book_6_Date"> 23/02/2023 </string>
+
+
+    //Change Fee Status
+    <string name="Fine"> Fine </string>
+
+    <string name="Paid"> Paid </string>
+
+    <string name="Current"> Current </string>
+    <string name="Home">Home</string>
+
+</resources>
